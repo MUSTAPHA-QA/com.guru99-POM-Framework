@@ -1,0 +1,79 @@
+21:04:15.608 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:04:15.618 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:04:15.618 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:04:16.055 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+21:04:16.165 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:04:16.165 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:04:16.165 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:04:16.180 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+21:04:16.190 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:04:16.195 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:04:16.195 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:04:16.205 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+21:04:16.230 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:04:16.230 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:04:16.230 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:04:16.240 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+21:04:16.250 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:04:16.250 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:04:16.250 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:04:16.265 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+21:04:16.275 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:04:16.275 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:04:16.275 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:04:16.295 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+21:04:16.337 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:04:16.337 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:04:16.342 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:04:16.351 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+21:04:16.361 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:04:16.361 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:04:16.361 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:04:16.371 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+21:04:16.381 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:04:16.381 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:04:16.381 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:04:16.391 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+21:04:16.401 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:04:16.401 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:04:16.401 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:04:16.414 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+21:04:16.421 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:04:16.426 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:04:16.426 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:04:16.436 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+21:04:16.446 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:04:16.451 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:04:16.451 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:04:16.456 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+21:04:16.471 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:04:16.471 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:04:16.471 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:04:16.481 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+21:04:16.501 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Starting test case: Customer Creation and Deletion
+21:04:16.600 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Entered userId: mngr552254
+21:04:16.650 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Entered password
+21:04:17.330 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Clicked on login button
+21:04:17.341 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Validated home page
+21:04:17.916 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Clicked on New Customer
+21:04:17.937 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Validated new customer page
+21:04:18.088 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Entered customer name: MUSTAPHA
+21:04:18.162 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Selected gender
+21:04:18.378 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Entered date of birth: 07/01/19
+21:04:18.451 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Entered address: TEXAS USA
+21:04:18.538 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Entered city: DALLAS
+21:04:18.604 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Entered state: TX
+21:04:18.675 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Entered pin: 2010
+21:04:18.734 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Entered telephone number: 93214567
+21:04:18.919 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Entered email: musta-qa@gmail.com
+21:04:18.974 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Entered customer password
+21:04:19.764 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Clicked on submit button for new customer creation
+21:04:19.770 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Validated customer registration page
+21:04:19.807 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Validated customer registered text
+21:04:20.528 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Clicked on delete customer
+21:04:20.542 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Validated delete customer page
+21:04:20.693 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Entered customer ID for deletion: 23498
+21:04:20.756 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Clicked on submit button for customer deletion
+21:04:20.771 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Accepted alert for customer deletion
+21:04:20.944 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Accepted second alert for customer deletion
+21:04:20.944 [main] INFO  com.guru99.testCases.TC002_CustomerCreationAndDeletionTest - Test case execution completed

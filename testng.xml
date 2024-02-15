@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Customer LifeCycle E2E Suite">
+
+	<listeners>
+		<listener
+			class-name="com.guru99.utilities.ExtentReportManager" />
+	</listeners>
+
+	<test thread-count="1" name="CustomerLifecycleTest">
+
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<!-- <class name="com.guru99.testCases.TC001_LoginTest" /> -->
+			<class name="com.guru99.utilities.BrowserFactory" />
+			<class name="com.guru99.testCases.TC002_CustomerCreationAndDeletionTest" />
+						
+		</classes>
+	</test> <!-- CustomerLifecycleTest -->
+</suite> <!-- Customer LifeCycle E2E Suite -->

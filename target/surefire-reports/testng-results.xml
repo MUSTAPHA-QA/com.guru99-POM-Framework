@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-13T21:04:11 CST" name="Customer LifeCycle E2E Suite" finished-at="2024-02-13T21:04:21 CST" duration-ms="9881">
+    <groups>
+    </groups>
+    <test started-at="2024-02-13T21:04:11 CST" name="CustomerLifecycleTest" finished-at="2024-02-13T21:04:21 CST" duration-ms="9881">
+      <class name="com.guru99.testCases.TC002_CustomerCreationAndDeletionTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.guru99.testCases.TC002_CustomerCreationAndDeletionTest@5b1669c0]" started-at="2024-02-13T21:04:11 CST" name="setup" finished-at="2024-02-13T21:04:15 CST" duration-ms="3907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCustomerCreationAndDeletion(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.guru99.testCases.TC002_CustomerCreationAndDeletionTest@5b1669c0]" started-at="2024-02-13T21:04:16 CST" name="testCustomerCreationAndDeletion" data-provider="Data" finished-at="2024-02-13T21:04:20 CST" duration-ms="4448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MUSTAPHA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[07]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TEXAS USA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[DALLAS]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[TX]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2010]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[93214567]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[musta-qa@gmail.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[mustaphaqa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerCreationAndDeletion -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.guru99.testCases.TC002_CustomerCreationAndDeletionTest@5b1669c0]" started-at="2024-02-13T21:04:20 CST" name="tearDown" finished-at="2024-02-13T21:04:21 CST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guru99.testCases.TC002_CustomerCreationAndDeletionTest -->
+    </test> <!-- CustomerLifecycleTest -->
+  </suite> <!-- Customer LifeCycle E2E Suite -->
+</testng-results>
