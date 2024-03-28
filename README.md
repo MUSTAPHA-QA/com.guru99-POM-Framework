@@ -33,10 +33,10 @@
 
     - BasePage class which encapsulates common methods.
     - LoginPage contains methods to interact with the login page
-    - HomePage ontains methods to interact with the home page
-    - AddNewCustomerPage contains methods to interact with the page for adding a new customer
+    - HomePage contains methods to interact with the home page
+    - AddNewCustomerPage contains methods to interact with adding a new customer page
     - ValidateCustomerRegistrationPage contains methods to validate the registration of a new customer
-    - DeleteCustomerPage contains methods to interact with the page for deleting a customer
+    - DeleteCustomerPage contains methods to interact with deleting a customer page
 
 
 
@@ -86,7 +86,7 @@ To ensure a clear and organized project structure, we've adopted the following c
 #### Test Case Success Rates
 - **Adding a new customer:** 100% success rate
 - **Deleting a customer:** 100% success rate
-- **Logging in to the application:** 100% success rate
+- **Logging into the application:** 100% success rate
 
 ### Identified Issue
 - **Issue:** After attempting to delete a customer, the application displays a message stating that the customer doesn't exist, despite the customer being created successfully.
