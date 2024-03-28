@@ -16,12 +16,12 @@ public class TC002_CustomerCreationAndDeletionTest extends BrowserFactory {
 	ReadConfig readConfig = new ReadConfig();
 	String userId = readConfig.getUserId();
 	String password = readConfig.getPassword();
-	String expectedText1 = readConfig.getExpectedText1();
+	String homePageExpectedText = readConfig.getHomePageExpectedText();
 	String errorMessage = readConfig.getErrorMessage();
-	String expectedText2 = readConfig.getExpectedText2();
-	String expectedText3 = readConfig.getExpectedText3();
-	String expectedText4 = readConfig.getExpectedText4();
-	String expectedText5 = readConfig.getExpectedText5();
+	String entryPageExpectedText = readConfig.getEntryPageExpectedText();
+	String registrationPageExpectedText = readConfig.getRegistrationPageExpectedText();
+	String customerRegisteredExpectedText = readConfig.getCustomerRegisteredExpectedText();
+	String deleteCustomerPageExpectedText = readConfig.getDeleteCustomerPageExpectedText();
 	
 	@Test(dataProvider = "Data", dataProviderClass = DataProviders.class)
 	public void testCustomerCreationAndDeletion(String customerName, String mm, String dd, String yyyy, String address, String city, String state, String pin, String telephoneNumber, String email, String customerPassword) {
@@ -38,14 +38,14 @@ public class TC002_CustomerCreationAndDeletionTest extends BrowserFactory {
 		
 		//HomePage validation
 		HomePage homePage = PageFactory.initElements(driver, HomePage.class);
-		homePage.validateHomePage(driver.getTitle(), expectedText1, errorMessage);
+		homePage.validateHomePage(driver.getTitle(), homePageExpectedText, errorMessage);
 		logger.info("Validated home page");
 		homePage.clickOnNewCustomer();
 		logger.info("Clicked on New Customer");
 		
 		//Insert customer details
 		AddNewCustomerPage addNewCustomerPage = PageFactory.initElements(driver, AddNewCustomerPage.class);
-		addNewCustomerPage.validateNewCustomerPage(driver.getTitle(), expectedText2, errorMessage); 
+		addNewCustomerPage.validateNewCustomerPage(driver.getTitle(), entryPageExpectedText, errorMessage); 
 		logger.info("Validated new customer page");
 		addNewCustomerPage.insertCustomerName(customerName); 
 		logger.info("Entered customer name: {}", customerName);
@@ -72,9 +72,9 @@ public class TC002_CustomerCreationAndDeletionTest extends BrowserFactory {
 		
 		//Validate customer creation
 		ValidateCustomerRegistrationPage validateCustomerRegistrationPage = PageFactory.initElements(driver, ValidateCustomerRegistrationPage.class);
-		validateCustomerRegistrationPage.validateCustomerRegistrationPage(driver.getTitle(), expectedText3, errorMessage);
+		validateCustomerRegistrationPage.validateCustomerRegistrationPage(driver.getTitle(), registrationPageExpectedText, errorMessage);
 		logger.info("Validated customer registration page");
-		validateCustomerRegistrationPage.validateCustomerRegisteredText(expectedText4, errorMessage);	
+		validateCustomerRegistrationPage.validateCustomerRegisteredText(customerRegisteredExpectedText, errorMessage);	
 		logger.info("Validated customer registered text");
 		
 		//Deleting Customer
@@ -82,7 +82,7 @@ public class TC002_CustomerCreationAndDeletionTest extends BrowserFactory {
 		validateCustomerRegistrationPage.clickOnDeleteCustomer();
 		logger.info("Clicked on delete customer");
 		DeleteCustomerPage deleteCustomerPage = PageFactory.initElements(driver, DeleteCustomerPage.class);
-		deleteCustomerPage.validateDeleteCustomerPage(driver.getTitle(), expectedText5, errorMessage);
+		deleteCustomerPage.validateDeleteCustomerPage(driver.getTitle(), deleteCustomerPageExpectedText, errorMessage);
 		logger.info("Validated delete customer page");
 		deleteCustomerPage.insertCustomerId(customerId);
 		logger.info("Entered customer ID for deletion: {}", customerId);
@@ -93,10 +93,6 @@ public class TC002_CustomerCreationAndDeletionTest extends BrowserFactory {
 		driver.switchTo().alert().accept();
 		logger.info("Accepted second alert for customer deletion");
 		
-		logger.info("Test case execution completed");
-		
-		
-		
+		logger.info("Test case execution completed");	
 	}
-
 }

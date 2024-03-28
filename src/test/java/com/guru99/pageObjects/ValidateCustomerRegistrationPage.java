@@ -37,13 +37,4 @@ public class ValidateCustomerRegistrationPage extends BasePage {
 	public void clickOnDeleteCustomer() {
 		Delete_Customer_Element.click();
 	}
-	
-
-	
-	
-	
-	
-	
-	
-
 }

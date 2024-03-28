@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-13T20:44:31 CST" name="Add Customer E2E Suite" finished-at="2024-02-13T20:44:40 CST" duration-ms="8539">
+  <suite started-at="2024-03-28T08:57:11 CDT" name="Customer LifeCycle E2E Suite" finished-at="2024-03-28T08:57:23 CDT" duration-ms="12024">
     <groups>
     </groups>
-    <test started-at="2024-02-13T20:44:31 CST" name="AddCustomerTest" finished-at="2024-02-13T20:44:40 CST" duration-ms="8539">
-      <class name="com.guru99.testCases.TC002_CustomerCreationAndDeletionTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.guru99.testCases.TC002_CustomerCreationAndDeletionTest@3e08ff24]" started-at="2024-02-13T20:44:31 CST" name="setup" finished-at="2024-02-13T20:44:35 CST" duration-ms="3498" status="PASS">
+    <test started-at="2024-03-28T08:57:11 CDT" name="LoginTest" finished-at="2024-03-28T08:57:15 CDT" duration-ms="4680">
+      <class name="com.guru99.testCases.TC001_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.guru99.testCases.TC001_LoginTest@31ea9581]" started-at="2024-03-28T08:57:11 CDT" name="setup" finished-at="2024-03-28T08:57:14 CDT" duration-ms="3275" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testCustomerCreationAndDeletion(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.guru99.testCases.TC002_CustomerCreationAndDeletionTest@3e08ff24]" started-at="2024-02-13T20:44:36 CST" name="testCustomerCreationAndDeletion" data-provider="Data" finished-at="2024-02-13T20:44:39 CST" duration-ms="3891" status="PASS">
+        <test-method signature="validUserShouldBeAbleToLogin()[pri:0, instance:com.guru99.testCases.TC001_LoginTest@31ea9581]" started-at="2024-03-28T08:57:14 CDT" name="validUserShouldBeAbleToLogin" finished-at="2024-03-28T08:57:15 CDT" duration-ms="909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserShouldBeAbleToLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.guru99.testCases.TC001_LoginTest@31ea9581]" started-at="2024-03-28T08:57:15 CDT" name="tearDown" finished-at="2024-03-28T08:57:15 CDT" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guru99.testCases.TC001_LoginTest -->
+    </test> <!-- LoginTest -->
+    <test started-at="2024-03-28T08:57:15 CDT" name="CustomerLifecycleTest" finished-at="2024-03-28T08:57:23 CDT" duration-ms="7141">
+      <class name="com.guru99.testCases.TC002_CustomerCreationAndDeletionTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.guru99.testCases.TC002_CustomerCreationAndDeletionTest@65987993]" started-at="2024-03-28T08:57:15 CDT" name="setup" finished-at="2024-03-28T08:57:18 CDT" duration-ms="2128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCustomerCreationAndDeletion(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.guru99.testCases.TC002_CustomerCreationAndDeletionTest@65987993]" started-at="2024-03-28T08:57:18 CDT" name="testCustomerCreationAndDeletion" data-provider="Data" finished-at="2024-03-28T08:57:22 CDT" duration-ms="3775" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,7 +102,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCustomerCreationAndDeletion -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.guru99.testCases.TC002_CustomerCreationAndDeletionTest@65987993]" started-at="2024-03-28T08:57:22 CDT" name="tearDown" finished-at="2024-03-28T08:57:23 CDT" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.guru99.testCases.TC002_CustomerCreationAndDeletionTest -->
-    </test> <!-- AddCustomerTest -->
-  </suite> <!-- Add Customer E2E Suite -->
+    </test> <!-- CustomerLifecycleTest -->
+  </suite> <!-- Customer LifeCycle E2E Suite -->
 </testng-results>

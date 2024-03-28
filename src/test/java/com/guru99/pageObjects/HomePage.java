@@ -22,5 +22,4 @@ public class HomePage extends BasePage {
 	public void clickOnNewCustomer() {
 		New_Customer_Button.click();
 	}
-
 }

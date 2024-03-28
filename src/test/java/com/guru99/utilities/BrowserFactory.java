@@ -41,9 +41,9 @@ public class BrowserFactory {
 		
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
-		driver.get(url);
 		driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);	
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		driver.get(url);
 		
 		logger = LogManager.getLogger(this.getClass());
 	}
@@ -54,5 +54,4 @@ public class BrowserFactory {
 		driver.close();
 		driver.quit();
 	}
-
 }

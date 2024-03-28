@@ -7,15 +7,24 @@
 			class-name="com.guru99.utilities.ExtentReportManager" />
 	</listeners>
 
+	<test thread-count="1" name="LoginTest">
+
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class name="com.guru99.testCases.TC001_LoginTest" />
+		</classes>
+		
+	</test> <!-- LoginTest -->
+
 	<test thread-count="1" name="CustomerLifecycleTest">
 
 		<parameter name="browser" value="chrome" />
 
 		<classes>
-			<!-- <class name="com.guru99.testCases.TC001_LoginTest" /> -->
-			<class name="com.guru99.utilities.BrowserFactory" />
 			<class name="com.guru99.testCases.TC002_CustomerCreationAndDeletionTest" />
-						
 		</classes>
+		
 	</test> <!-- CustomerLifecycleTest -->
+
 </suite> <!-- Customer LifeCycle E2E Suite -->

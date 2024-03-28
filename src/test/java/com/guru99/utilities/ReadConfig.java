@@ -11,7 +11,7 @@ public class ReadConfig {
 	public ReadConfig() {
 		
 		try {
-			FileInputStream inputStream = new FileInputStream("./src\\test\\resources\\config.properties");
+			FileInputStream inputStream = new FileInputStream("./src/test/resources/config.properties");
 			properties = new Properties();
 			properties.load(inputStream);
 		
@@ -32,32 +32,27 @@ public class ReadConfig {
 		return properties.getProperty("password");
 	}
 	
-	public String getExpectedText1() {
-		return properties.getProperty("expectedText1");
+	public String getHomePageExpectedText() {
+		return properties.getProperty("homePageExpectedText");
 	}
 	
 	public String getErrorMessage() {
 		return properties.getProperty("errorMessage");
 	}
 	
-	public String getExpectedText2() {
-		return properties.getProperty("expectedText2");
+	public String getEntryPageExpectedText() {
+		return properties.getProperty("entryPageExpectedText");
 	}
 	
-	public String getExpectedText3() {
-		return properties.getProperty("expectedText3");
+	public String getRegistrationPageExpectedText() {
+		return properties.getProperty("registrationPageExpectedText");
 	}
 	
-	public String getExpectedText4() {
-		return properties.getProperty("expectedText4");
+	public String getCustomerRegisteredExpectedText() {
+		return properties.getProperty("customerRegisteredExpectedText");
 	}
 	
-	public String getExpectedText5() {
-		return properties.getProperty("expectedText5");
-	}
-	
-	
-	
-	
-
+	public String getDeleteCustomerPageExpectedText() {
+		return properties.getProperty("deleteCustomerPageExpectedText");
+	}	
 }
